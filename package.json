@@ -1,0 +1,14 @@
+{
+  "name": "mime-sniff-core",
+  "version": "0.1.0",
+  "description": "File-type sniffing from leading magic bytes: exact rules, longest-match wins, unknown returns null. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/sniff.test.js",
+    "demo": "node bin/sniff.mjs --assert"
+  }
+}
